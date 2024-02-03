@@ -30,4 +30,10 @@ This Go program demonstrates several functions created by different contributors
    - Function: `calculateCube`
      - Calculates the cube of a given number.
      - Input: Any number
-     - Output: Cube of the given number    
+     - Output: Cube of the given number
+         
+ **Sidham Kour**
+   - Function: `reverseString`
+     - Reverses the given string.
+     - Input: Normal string
+     - Output: Reversed string
