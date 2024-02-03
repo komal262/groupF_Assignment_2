@@ -41,5 +41,5 @@ This Go program demonstrates several functions created by different contributors
   **Komal Negah**
   -Function: 'repeatWord'
   - Repeat the given word.
-  - Input:Any word
+  - Input:Any word.
   - Output: Repeat Word
