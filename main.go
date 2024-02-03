@@ -99,7 +99,10 @@ func factorial(n int) int {
 // INPUT: give any number
 // OUTPUT: provides given number is odd or even.
 func isEven(num int) bool {
-	return num%2 == 0 // If num is divisible by 2 with no remainder, it's even.
+	if num&1 == 0 {
+		return true
+	}
+	return false
 }
 
 // function Four
