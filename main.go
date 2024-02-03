@@ -36,6 +36,12 @@ func main() {
 	}
 	fmt.Println("")
 
+	// Test the calculateCube function
+	// Created by Jashanpreet kaur
+	inputNumber := 6
+	fmt.Println("::JASHANPREET KAUR functions's output::")
+	fmt.Printf("The cube of %d is: %d\n", inputNumber, calculateCube(inputNumber))
+	fmt.Println("")
 }
 
 // function One
@@ -74,12 +80,11 @@ func Fibonacci(n int) []int {
 // created by kashish maggu
 // purpose: returns factorial of given number
 func factorial(n int) int {
-    if n == 0 || n == 1 {
-        return 1
-    }
-    return n * factorial(n-1)
+	if n == 0 || n == 1 {
+		return 1
+	}
+	return n * factorial(n-1)
 }
-
 
 // function three
 // Created by jitender kaushik
@@ -88,3 +93,13 @@ func factorial(n int) int {
 // OUTPUT: provides given number is odd or even.
 func isEven(num int) bool {
 	return num%2 == 0 // If num is divisible by 2 with no remainder, it's even.
+}
+
+// function Four
+// created by Jashanpreet kaur
+// purpose: calculateCube takes a number as an argument and gives output in number's cube.
+// INPUT: give any number
+// OUTPUT: returns cube of given number.
+func calculateCube(number int) int {
+	return number * number * number
+}

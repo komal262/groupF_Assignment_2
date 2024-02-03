@@ -25,3 +25,9 @@ This Go program demonstrates several functions created by different contributors
      - Checks if a number is even or odd.
      - Input: Any number
      - Output: True if the number is even, false otherwise.
+
+ **Jashanpreet Kaur**
+   - Function: `calculateCube`
+     - Calculates the cube of a given number.
+     - Input: Any number
+     - Output: Cube of the given number    
