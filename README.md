@@ -19,3 +19,9 @@ This Go program demonstrates several functions created by different contributors
      - Returns the factorial of a given number.
      - Input: Any number
      - Output: Factorial of the given number
+
+ **Jitender Kaushik**
+   - Function: `isEven`
+     - Checks if a number is even or odd.
+     - Input: Any number
+     - Output: True if the number is even, false otherwise.

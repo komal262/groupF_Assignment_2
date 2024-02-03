@@ -23,6 +23,19 @@ func main() {
 	fmt.Println("::KASHISH MAGGU functions's output::")
 	fmt.Println("Factorial of", factorialNum, "is", factorial(factorialNum))
 	fmt.Println("")
+
+	// Test the isEven function
+	// Created by Jitender kaushik
+	num := 7
+	// If it's even, print that it's even, otherwise print that it's odd.
+	fmt.Println("::JITENDER KAUSHIK functions's output::")
+	if isEven(num) {
+		fmt.Println(num, "is even.")
+	} else {
+		fmt.Println(num, "is odd.")
+	}
+	fmt.Println("")
+
 }
 
 // function One
@@ -66,3 +79,12 @@ func factorial(n int) int {
     }
     return n * factorial(n-1)
 }
+
+
+// function three
+// Created by jitender kaushik
+// isEven function checks if a number is even or not.
+// INPUT: give any number
+// OUTPUT: provides given number is odd or even.
+func isEven(num int) bool {
+	return num%2 == 0 // If num is divisible by 2 with no remainder, it's even.
