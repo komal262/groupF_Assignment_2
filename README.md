@@ -8,3 +8,9 @@ This Go program demonstrates several functions created by different contributors
     - Input: Base (integer), Exponent (integer)
     - Output: Result (integer) - the result of base raised to the exponent
 
+**Navneet Kaur**
+    - Function: `Fibonacci`   
+    - Generates and returns the resulting fibonacci series upto n terms.
+    - Input: n (integer)
+    - Output: fibSer ([]integer) (Resulting fibonacci series)
+
