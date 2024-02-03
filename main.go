@@ -42,6 +42,13 @@ func main() {
 	fmt.Println("::JASHANPREET KAUR functions's output::")
 	fmt.Printf("The cube of %d is: %d\n", inputNumber, calculateCube(inputNumber))
 	fmt.Println("")
+
+	// Test the toUpperString function
+	// Created by Sidham Kour
+	inputString := "hello, world!"
+	fmt.Println("::SIDHAM KOUR functions's output::")
+	fmt.Printf("The uppercase string of \"%s\" is: \"%s\"\n", inputString, toUpperString(inputString))
+	fmt.Println("")
 }
 
 // function One
@@ -104,15 +111,24 @@ func calculateCube(number int) int {
 	return number * number * number
 }
 
-// function five
-// created by Sidham kour
-// Reverse the given string
+// Function five
+// Created by Sidham Kour
+// Convert all characters in the given string to uppercase
 // INPUT: input normal string
-// OUTPUT: gives reverse string
-func reverseString(input string) string {
+// OUTPUT: gives string with all characters in uppercase
+func toUpperString(input string) string {
+	// Convert the input string to a slice of runes for manipulation
 	runes := []rune(input)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
+
+	// Iterate through each rune in the slice
+	for i := 0; i < len(runes); i++ {
+		// Check if the current rune is a lowercase letter
+		if runes[i] >= 'a' && runes[i] <= 'z' {
+			// Convert the lowercase letter to uppercase
+			runes[i] = runes[i] - 'a' + 'A'
+		}
 	}
+
+	// Convert the slice of runes back to a string and return
 	return string(runes)
 }

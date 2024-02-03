@@ -33,7 +33,7 @@ This Go program demonstrates several functions created by different contributors
      - Output: Cube of the given number
          
  **Sidham Kour**
-   - Function: `reverseString`
-     - Reverses the given string.
-     - Input: Normal string
-     - Output: Reversed string
+  -Function: 'reverseString'
+  - Reverses the given string.
+  - Input: Normal string
+  - Output: Reversed string
