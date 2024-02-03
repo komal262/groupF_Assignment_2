@@ -16,6 +16,13 @@ func main() {
 	//Testing Fibonacci Series Function (Function Two)
 	fmt.Println("Output of the function created by Navneet Kaur ")
 	fmt.Println(Fibonacci(8))
+
+	// Test the factorial function
+	// Created by Kashish Maggu
+	factorialNum := 5
+	fmt.Println("::KASHISH MAGGU functions's output::")
+	fmt.Println("Factorial of", factorialNum, "is", factorial(factorialNum))
+	fmt.Println("")
 }
 
 // function One
@@ -48,4 +55,14 @@ func Fibonacci(n int) []int {
 	}
 
 	return fibSer
+}
+
+// function Three
+// created by kashish maggu
+// purpose: returns factorial of given number
+func factorial(n int) int {
+    if n == 0 || n == 1 {
+        return 1
+    }
+    return n * factorial(n-1)
 }

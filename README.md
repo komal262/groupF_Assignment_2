@@ -14,3 +14,8 @@ This Go program demonstrates several functions created by different contributors
     - Input: n (integer)
     - Output: fibSer ([]integer) (Resulting fibonacci series)
 
+**Kashish Maggu**
+   - Function: `factorial`
+     - Returns the factorial of a given number.
+     - Input: Any number
+     - Output: Factorial of the given number
