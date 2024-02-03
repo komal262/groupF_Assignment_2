@@ -49,6 +49,11 @@ func main() {
 	fmt.Println("::SIDHAM KOUR functions's output::")
 	fmt.Printf("The uppercase string of \"%s\" is: \"%s\"\n", inputString, toUpperString(inputString))
 	fmt.Println("")
+	// Repeat the word function
+	// Created by Komal Negah
+	fmt.Println("::Komal Negah functions's output::")
+	repeat("\nKomal", 10)
+
 }
 
 // function One
@@ -134,4 +139,15 @@ func toUpperString(input string) string {
 
 	// Convert the slice of runes back to a string and return
 	return string(runes)
+}
+
+// Function six
+// Created by Komal Negah
+// Program to repeat the word
+// OUTPUT: repeat the given word
+
+func repeat(text string, digit int) {
+	for i := 0; i < digit; i++ {
+		fmt.Println(text)
+	}
 }

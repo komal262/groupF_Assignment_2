@@ -37,3 +37,9 @@ This Go program demonstrates several functions created by different contributors
   - Reverses the given string.
   - Input: Normal string
   - Output: Reversed string
+
+  **Komal Negah**
+  -Function: 'repeatWord'
+  - Repeat the given word.
+  - Input:Any word
+  - Output: Repeat Word
